@@ -2,11 +2,12 @@
 
 ## Installation
 
+* Open Terminal with "Run as Administrator"
 * Before installing pnpm, ensure npm version 18+ installed. 
 
 `node --version`
 
-Then, install pnpm globally using npm.
+* Then, install pnpm globally using npm.
 
 `npm install -g pnpm`
 
@@ -14,32 +15,60 @@ Then, install pnpm globally using npm.
 
 `pnpm --version`
 
-## Creating The First Project
+## Creating a Project
+
+* Go to a directory
+* Open terminal
+* Initialize a new pnpm project
+
+`pnpm init`
 
 * To create a new React project using pnpm:
 
 `Run pnpm create react-app my-app`
 
-Navigate to the project directory: 
+* Navigate to the project directory: 
 
 `cd my-app`
 
-Install dependencies: 
+* Install/Update dependencies: 
 
-`pnpm install`
+`pnpm install` or `pnpm update`
 
-Start the development server: 
+* Start the development server: 
 
 `pnpm start`
 
 ## Second Project
 
-* To start your second project:
-Create a new directory for your second project
-Initialize a new pnpm project: pnpm init
-Install React and MUI:
-pnpm install react react-dom @mui/material @emotion/react @emotion/styled
-Create a new React app manually or use a template
-Install dependencies: pnpm install
-Start the development server: pnpm start
-Note: You can also use pnpm create with a template or clone an existing project for your second project.
+* Go to a directory
+* Open terminal
+* Initialize a new pnpm project
+
+`pnpm init`
+
+* To create a new React project using pnpm:
+
+`Run pnpm create react-app my-app`
+
+* Navigate to the project directory: 
+
+`cd my-app`
+
+* Install/Update dependencies: 
+
+`pnpm install` or `pnpm update`
+
+* Start the development server: 
+
+`pnpm start`
+
+## Difference Between Projects
+
+After installing the first there are a few advantages to the second project
+
+1- Faster installation: pnpm uses a content-addressable storage system, which reduces the time it takes to install dependencies.
+2- Efficient dependency management: pnpm creates a single store for all dependencies, reducing duplication and saving disk space.
+3- Improved performance: pnpm's efficient management and storage system lead to faster package installation and updates.
+4- Consistent package versions: pnpm ensures that all projects using the same package version, reducing conflicts and inconsistencies.
+5- Easy project setup: pnpm's init command sets up a new project with a pnpm-workspace.yaml file, making it easy to manage multiple projects.
