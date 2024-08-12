@@ -2,7 +2,7 @@
 
 ## Downloading
 
-* Go to
+* Visit the following link.
 
 `https://nodejs.org/en/download/prebuilt-installer/current`
 
