@@ -1,5 +1,20 @@
 # Getting Started with npm
 
+## Downloading
+
+* Go to
+
+`https://nodejs.org/en/download/prebuilt-installer/current`
+
+* Select LTS or current version for the required system and OS
+
+* Then click Download
+
+* Go to Download Folder
+* Launch the setup
+* Just follow the default options and click "NEXT"
+* Ta-da!! Installation Complete! 
+
 ## Installation
 
 * Open Terminal with "Run as Administrator"
