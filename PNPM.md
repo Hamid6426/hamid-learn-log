@@ -2,23 +2,29 @@
 ## pnpm Installation:
 
 Before installing pnpm be sure to install npm version 18+, Now Install pnpm globally using npm.
+
 #### npm install -g pnpm
 
 Verify installation by checking version
+
 #### pnpm --version
 
 ## First Time with pnpm
 
 Create a new React project using pnpm: 
+
 #### pnpm create react-app my-app
 
 Navigate to project directory: 
+
 #### cd my-app
 
 Install dependencies using pnpm: 
+
 #### pnpm install
 
 Start development server: 
+
 #### pnpm start
 
 ## Starting 2nd Project:
