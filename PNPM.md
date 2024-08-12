@@ -67,8 +67,8 @@
 
 After installing the first there are a few advantages to the second project
 
-1- Faster installation: pnpm uses a content-addressable storage system, which reduces the time it takes to install dependencies.
-2- Efficient dependency management: pnpm creates a single store for all dependencies, reducing duplication and saving disk space.
-3- Improved performance: pnpm's efficient management and storage system lead to faster package installation and updates.
-4- Consistent package versions: pnpm ensures that all projects using the same package version, reducing conflicts and inconsistencies.
-5- Easy project setup: pnpm's init command sets up a new project with a pnpm-workspace.yaml file, making it easy to manage multiple projects.
+- Faster installation: pnpm uses a content-addressable storage system, which reduces the time it takes to install dependencies.
+- Efficient dependency management: pnpm creates a single store for all dependencies, reducing duplication and saving disk space.
+- Improved performance: pnpm's efficient management and storage system lead to faster package installation and updates.
+- Consistent package versions: pnpm ensures that all projects using the same package version, reducing conflicts and inconsistencies.
+- Easy project setup: pnpm's init command sets up a new project with a pnpm-workspace.yaml file, making it easy to manage multiple projects.
