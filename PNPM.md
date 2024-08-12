@@ -72,3 +72,7 @@ After installing the first there are a few advantages to the second project
 - Improved performance: pnpm's efficient management and storage system lead to faster package installation and updates.
 - Consistent package versions: pnpm ensures that all projects using the same package version, reducing conflicts and inconsistencies.
 - Easy project setup: pnpm's init command sets up a new project with a pnpm-workspace.yaml file, making it easy to manage multiple projects.
+
+## Link to pnpm website
+
+https://pnpm.io/
