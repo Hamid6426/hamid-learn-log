@@ -1,5 +1,9 @@
 # Getting Started With MySQL
 
+## mySQL Documentation
+
+`https://dev.mysql.com/doc/`
+
 ## Download mySQL Shell
 
 - Go to the following link
