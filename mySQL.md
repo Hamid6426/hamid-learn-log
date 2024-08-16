@@ -4,26 +4,28 @@
 
 `https://dev.mysql.com/doc/`
 
-## Download mySQL Shell
+## Download mySQL Community Installer
 
 - Go to the following link
 
-`https://dev.mysql.com/downloads/shell/`
+`https://dev.mysql.com/downloads/installer/`
 
 - Select a version and operating system
 
-- Download msi or zip file
+- Download the larger file
 
 - Skip login or sign up
 
-## Download mySQL Workbench
+## Installation
 
-- Go to the following link
-
-`https://dev.mysql.com/downloads/workbench`
-
-- Select a version and operating system
-
-- Download msi or zip file
-
-- Skip login or sign up
+- Go to download, and launch mySQL community installer
+- Setup type = full
+- Default Installation paths
+- Execute, wait and click next
+- Next
+- Authentication Method = Strong
+- Next
+- Create a good password and store it in a safe place
+- Next
+- Next
+- Finish
