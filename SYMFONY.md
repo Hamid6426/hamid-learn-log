@@ -88,3 +88,58 @@ symfony server:start -d
 `composer require --dev symfony/maker-bundle`
 - Try again with the command
 `symfony console make:controller NewController`
+
+## Views in Symfony
+
+- Symfony use a custom template engine called twig.
+- Now just like livewire with laravel we need twig so:
+`composer require twig`
+- This will create a templates folder and a file base.html.twig file in it.
+- Here we can create our own symfony view template filename.html.twig
+- If we are using emmet in VS Code, the emmet will not work now so lets configure it
+- Go to settings
+- Search for settings.json
+- Add a line anywhere in the settings.json file
+`"emmet.includeLanguages": {"twig": "html"},`
+- This page can be rendered in a controller file with
+{
+  return $this->render('index.html.twig')
+}
+
+## Creating Database
+
+- First of all add these two packages if not installed already
+`composer require symfony/orm-pack`
+`composer require --dev symfony/maker-bundle`
+- Add a DATABASE_URL link in the .env first
+- 
+- For finding command list for symfony
+`symfony console`
+- Find a command which can be used to create database
+`symfony console doctrine:create:database`
+- Create an entity when basically mean table or model with this command
+`symfony console make:entity Users`
+- It create 2 files
+  - src/entity/User.php
+  - src/Repository/UserRepository.php
+- Now the console will ask for property name which is the same as column name or simply header of a table
+- So what can a user have? Let's write
+- Property Name: name
+- Field type or data type: string
+- Field length: 255
+- Can be null: no
+- Now the cli will ask if we want to add another property / column / header
+- To stop adding field press <return>
+- We can create a new entity the same way
+- While if we want to connect a variable in the two table we need to change the field type of a variable in this entity. It the same as what we do with ID in postgresql most of the time
+
+## Migration
+
+- To migrate the entities to database
+`symfony console make:migrate`
+- Check the file in migrate folder, this is the work on orm which make it easier!!
+- According to symfony cli, we need to run migration
+`php bin/console doctrine:migrations:migrate`
+- But we will use symfony command
+`symfony console doctrine:migrations:migrate`
+ 
