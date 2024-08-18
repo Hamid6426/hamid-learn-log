@@ -50,6 +50,7 @@ Exit mySQL
 - VSCode great icons by Emmaneul Beziat
 - Bracket Pair Colorizer by Coenraads
 - Emmet Live by Yurli Semeniuk
+- Database Client by Weijan Chen
 
 ## Project Setup
 
